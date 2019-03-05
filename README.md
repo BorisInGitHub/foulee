@@ -19,15 +19,16 @@ docker-compose up
 Clean
 ```bash
 docker-compose down --volumes
+docker-compose rm
 ```
 
 Puis aller sur le site http://localhost:8000, la configuration se fait via http://localhost:8000/wp-admin/index.php
 
 
 Configuration `wordpress`
-username `foulees_admin`
-password `^dRI)$&WjJ7jGHc0BS`
-mail `boris.reynard@gmail.com`
+* username `foulees_admin`
+* password `^dRI)$&WjJ7jGHc0BS`
+* mail `boris.reynard@gmail.com`
 
 
 Images:
